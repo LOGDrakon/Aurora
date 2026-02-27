@@ -1,0 +1,161 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "28d41bb2-6f36-46cd-8d05-506648429256")
+	(paper "A4")
+	(title_block
+		(company "SAHGEV")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 44.45 17.78) (xy 53.34 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df95353-2b00-4a00-82b0-32a0a6f14195")
+	)
+	(wire
+		(pts
+			(xy 44.45 20.32) (xy 53.34 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e0f7e4-2989-4847-8c6a-d9ca2ca6c9c8")
+	)
+	(label "24V"
+		(at 53.34 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f86e52c-d06b-46f2-a897-585764f68bd6")
+	)
+	(label "3.3V"
+		(at 53.34 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8a1265a-2d13-41ed-92fd-db53568829ae")
+	)
+	(sheet
+		(at 15.24 16.51)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3451439a-4d63-46d8-a216-58b002d2f11a")
+		(property "Sheetname" "Alimentation"
+			(at 15.24 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alimentation.kicad_sch"
+			(at 15.24 22.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" output
+			(at 44.45 17.78 0)
+			(uuid "91882246-7479-43cf-8e26-bf68967c0420")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "24V" output
+			(at 44.45 20.32 0)
+			(uuid "87742c19-707a-4f4b-9d53-c770c24e614c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Aurora"
+				(path "/28d41bb2-6f36-46cd-8d05-506648429256"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 29.21)
+		(size 31.75 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8366336-1cf5-419b-af0d-451227fe1fbd")
+		(property "Sheetname" "MCU"
+			(at 15.24 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 15.24 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Aurora"
+				(path "/28d41bb2-6f36-46cd-8d05-506648429256"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
